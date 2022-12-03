@@ -1,10 +1,9 @@
 import { useState } from "react";
 import { useEffect } from "react";
-
 import ImageContext from "./context/ImageContext";
-
 import Image from "./components/Image";
 
+//TODO: AGREGAR A STATE
 let contador = 1;
 
 export default function App() {
